@@ -39,3 +39,23 @@ def additionalinfo(request):
 def security(request):
     return render(request, "termsgen/privacy policy page/security.html")
 
+def return_and_refund(request):
+    return render(request, 'termsgen/return and refund pages/Refund and Shipping Information.html')
+
+def terms_and_conditions(request):
+    return render(request, "termsgen/terms and condition/p1-business-info.html")
+
+def terms_and_conditions_2(request):
+    return render(request, "termsgen/terms and condition/p2-additional-info.html")
+
+def terms_and_conditions_3(request):
+    return render(request, "termsgen/terms and condition/p3-security-info.html")
+
+def terms_and_conditions_4(request):
+    return render(request, "termsgen/terms and condition/p4-preview-page.html")
+
+def terms_and_conditions_5(request):
+    return render(request, "termsgen/terms and condition/p3-success-info.html")
+
+def terms_and_conditions_6(request):
+    return render(request, "termsgen/terms and condition/p4-overlay-page.html")
